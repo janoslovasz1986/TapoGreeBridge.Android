@@ -1,0 +1,11 @@
+Button;obj\Debug\net10.0-android\res\layout\activity_main.xml
+Button;obj\Debug\net10.0-android\res\layout\room_card.xml
+EditText;obj\Debug\net10.0-android\res\layout\activity_main.xml
+LinearLayout;obj\Debug\net10.0-android\res\layout\activity_main.xml
+LinearLayout;obj\Debug\net10.0-android\res\layout\room_card.xml
+resources;obj\Debug\net10.0-android\res\values\strings.xml
+ScrollView;obj\Debug\net10.0-android\res\layout\activity_main.xml
+string;obj\Debug\net10.0-android\res\values\strings.xml
+TextView;obj\Debug\net10.0-android\res\layout\activity_main.xml
+TextView;obj\Debug\net10.0-android\res\layout\room_card.xml
+ToggleButton;obj\Debug\net10.0-android\res\layout\room_card.xml

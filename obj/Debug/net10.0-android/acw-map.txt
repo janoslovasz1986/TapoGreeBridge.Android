@@ -1,0 +1,3 @@
+TapoGreeBridge.Android.MainActivity, TapoGreeBridge.Android;crc6471d6528498a3ccc5.MainActivity
+TapoGreeBridge.Android.MainActivity;crc6471d6528498a3ccc5.MainActivity
+tapogreebridge.android.MainActivity;crc6471d6528498a3ccc5.MainActivity

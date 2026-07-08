@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TapoGreeBridge.Android</name>
+    </assembly>
+    <members>
+        <member name="T:TapoGreeBridge.Android.BridgeApiClient">
+            <summary>
+            Talks to the TapoGreeBridge Windows service's HTTP API (see the main project's
+            Program.cs: GET /status, POST /rooms/{name}/target). This only works on the home
+            WiFi network, since the service has no auth and is bound to the local network.
+            </summary>
+        </member>
+        <member name="M:TapoGreeBridge.Android.MainActivity.IsOnExpectedWifi(System.String@)">
+            <summary>
+            Best-effort check that we're on the home WiFi - this is informational only
+            (shown as a warning), since reading the SSID can be unreliable depending on
+            Android version/permissions, and we don't want to hard-block the user.
+            </summary>
+        </member>
+        <member name="T:TapoGreeBridge.Android.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+    </members>
+</doc>

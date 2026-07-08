@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9+JAHwyOWso=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\TapoGreeBridge.Android.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Johnny\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.7\\microsoft.net.illink.tasks.10.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

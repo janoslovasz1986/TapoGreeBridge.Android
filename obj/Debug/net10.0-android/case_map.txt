@@ -1,0 +1,3 @@
+layout\activity_main;layout\activity_main
+layout\room_card;layout\room_card
+values\strings;values\Strings

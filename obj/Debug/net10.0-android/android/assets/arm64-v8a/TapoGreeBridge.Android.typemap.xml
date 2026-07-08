@@ -1,0 +1,8 @@
+<api type="debug" assembly-name="TapoGreeBridge.Android" mvid="33a7db409dbf4184a1bbbdc4e4c0ccf6">
+  <java-to-managed>
+    <entry java-name="crc6471d6528498a3ccc5/MainActivity" managed-name="TapoGreeBridge.Android.MainActivity, TapoGreeBridge.Android" managed-type-token-id="33554436" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc6471d6528498a3ccc5/MainActivity" managed-name="TapoGreeBridge.Android.MainActivity, TapoGreeBridge.Android" managed-type-token-id="33554436" />
+  </managed-to-java>
+</api>
