@@ -41,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:textOn="🌡 Hűtés BE"
+        android:textOn="🌡 Bekapcsolva"
         android:textOff="⏹ Kikapcsolva" />
 
 	<ToggleButton
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:textOn="💨 Ventilátor BE"
-        android:textOff="❄️ Hűtés" />
+        android:textOff="❄️ Hűtés BE" />
 
 	<LinearLayout
         android:orientation="horizontal"

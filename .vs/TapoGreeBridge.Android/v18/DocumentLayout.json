@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|solutionrelative:resources\\layout\\room_card.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|c:\\users\\johnny\\source\\repos\\greeacapp\\bridgeapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|solutionrelative:bridgeapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|c:\\users\\johnny\\source\\repos\\greeacapp\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|solutionrelative:mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|c:\\users\\johnny\\source\\repos\\greeacapp\\bridgeapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|solutionrelative:bridgeapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|c:\\users\\johnny\\source\\repos\\greeacapp\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,16 +34,16 @@
               "Title": "room_card.xml",
               "DocumentMoniker": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\Resources\\layout\\room_card.xml",
               "RelativeDocumentMoniker": "Resources\\layout\\room_card.xml",
-              "ToolTip": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\Resources\\layout\\room_card.xml",
-              "RelativeToolTip": "Resources\\layout\\room_card.xml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwDMAAAAoAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\Resources\\layout\\room_card.xml*",
+              "RelativeToolTip": "Resources\\layout\\room_card.xml*",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
               "WhenOpened": "2026-07-06T20:17:37.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BridgeApiClient.cs",
               "DocumentMoniker": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\BridgeApiClient.cs",
               "RelativeDocumentMoniker": "BridgeApiClient.cs",
@@ -51,8 +51,7 @@
               "RelativeToolTip": "BridgeApiClient.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwCEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T13:08:20.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T13:08:20.92Z"
             },
             {
               "$type": "Document",
@@ -64,18 +63,17 @@
               "RelativeToolTip": "Models.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAA4wDsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T13:07:50.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T13:07:50.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainActivity.cs",
               "DocumentMoniker": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\MainActivity.cs",
               "RelativeDocumentMoniker": "MainActivity.cs",
               "ToolTip": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\MainActivity.cs",
               "RelativeToolTip": "MainActivity.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAnwHYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAmwMEAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-30T07:29:40.881Z",
               "EditorCaption": ""

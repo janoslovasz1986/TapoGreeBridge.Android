@@ -87,7 +87,7 @@ public sealed class MainActivity : Activity
 
             nameView.Text = room.Name;
             activeSwitch.Checked = room.IsActive;
-            targetView.Text = $"{room.TargetTemperatureCelsius:0.0}°C";
+            targetView.Text = $"Cél: {room.TargetTemperatureCelsius:0.0}°C";
 
             // Dim the card when inactive so it's visually clear at a glance.
             card.Alpha = room.IsActive ? 1.0f : 0.45f;

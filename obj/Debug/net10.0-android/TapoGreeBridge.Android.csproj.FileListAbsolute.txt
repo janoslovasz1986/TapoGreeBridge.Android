@@ -625,3 +625,4 @@ C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\stamp\_ConvertR
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\TapoGreeBridge.Android.sourcelink.json
