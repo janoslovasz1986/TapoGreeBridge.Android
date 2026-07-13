@@ -53,4 +53,31 @@ public sealed class BridgeApiClient
         var response = await _http.PostAsJsonAsync($"/rooms/{encodedName}/active", new ActiveRequest { Active = active }, ct);
         response.EnsureSuccessStatusCode();
     }
+
+    public async Task<List<ScheduleEntry>> GetSchedulesAsync(string roomName, CancellationToken ct = default)
+    {
+        var encodedName = Uri.EscapeDataString(roomName);
+        var response = await _http.GetFromJsonAsync<List<ScheduleEntry>>($"/rooms/{encodedName}/schedules", ct);
+        return response ?? new List<ScheduleEntry>();
+    }
+
+    public async Task<ScheduleEntry?> CreateScheduleAsync(string roomName, CreateScheduleRequest request, CancellationToken ct = default)
+    {
+        var encodedName = Uri.EscapeDataString(roomName);
+        var response = await _http.PostAsJsonAsync($"/rooms/{encodedName}/schedules", request, ct);
+        response.EnsureSuccessStatusCode();
+        return await response.Content.ReadFromJsonAsync<ScheduleEntry>(cancellationToken: ct);
+    }
+
+    public async Task DeleteScheduleAsync(long id, CancellationToken ct = default)
+    {
+        var response = await _http.DeleteAsync($"/schedules/{id}", ct);
+        response.EnsureSuccessStatusCode();
+    }
+
+    public async Task SetScheduleEnabledAsync(long id, bool enabled, CancellationToken ct = default)
+    {
+        var response = await _http.PatchAsJsonAsync($"/schedules/{id}/enabled", new { enabled }, ct);
+        response.EnsureSuccessStatusCode();
+    }
 }

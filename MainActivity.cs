@@ -113,6 +113,15 @@ public sealed class MainActivity : Activity
             var wattsText = room.CurrentWatts is { } w ? $"⚡ {w:F0}W" : "⚡ n/a";
             readingsView.Text = $"Valós: {realText}  |  Klíma: {acText}  |  {modeText}  |  {onOffText}  |  {wattsText}";
 
+            var scheduleButton = card.FindViewById<Button>(Resource.Id.scheduleButton)!;
+            scheduleButton.Click += (_, _) =>
+            {
+                var intent = new Intent(this, typeof(ScheduleActivity));
+                intent.PutExtra(ScheduleActivity.ExtraRoomName, room.Name);
+                intent.PutExtra(ScheduleActivity.ExtraServerUrl, _serverUrlInput.Text?.Trim() ?? "");
+                StartActivity(intent);
+            };
+
             var powerButton = card.FindViewById<ToggleButton>(Resource.Id.powerButton)!;
             powerButton.Checked = room.IsOn == true;
 

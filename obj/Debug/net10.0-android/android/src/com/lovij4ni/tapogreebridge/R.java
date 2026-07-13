@@ -10,21 +10,32 @@ package com.lovij4ni.tapogreebridge;
 public final class R {
   public static final class id {
     public static final int activeSwitch=0x7f010000;
-    public static final int decreaseButton=0x7f010001;
-    public static final int fanButton=0x7f010002;
-    public static final int increaseButton=0x7f010003;
-    public static final int powerButton=0x7f010004;
-    public static final int refreshButton=0x7f010005;
-    public static final int roomName=0x7f010006;
-    public static final int roomReadings=0x7f010007;
-    public static final int roomsContainer=0x7f010008;
-    public static final int serverUrlInput=0x7f010009;
-    public static final int statusText=0x7f01000a;
-    public static final int targetValue=0x7f01000b;
+    public static final int addScheduleButton=0x7f010001;
+    public static final int decreaseButton=0x7f010002;
+    public static final int deleteScheduleButton=0x7f010003;
+    public static final int fanButton=0x7f010004;
+    public static final int increaseButton=0x7f010005;
+    public static final int powerButton=0x7f010006;
+    public static final int refreshButton=0x7f010007;
+    public static final int roomName=0x7f010008;
+    public static final int roomReadings=0x7f010009;
+    public static final int roomsContainer=0x7f01000a;
+    public static final int scheduleButton=0x7f01000b;
+    public static final int scheduleDescription=0x7f01000c;
+    public static final int scheduleEnabledToggle=0x7f01000d;
+    public static final int scheduleLastExecuted=0x7f01000e;
+    public static final int scheduleStatusText=0x7f01000f;
+    public static final int scheduleTitle=0x7f010010;
+    public static final int schedulesContainer=0x7f010011;
+    public static final int serverUrlInput=0x7f010012;
+    public static final int statusText=0x7f010013;
+    public static final int targetValue=0x7f010014;
   }
   public static final class layout {
     public static final int activity_main=0x7f020000;
-    public static final int room_card=0x7f020001;
+    public static final int activity_schedule=0x7f020001;
+    public static final int room_card=0x7f020002;
+    public static final int schedule_item=0x7f020003;
   }
   public static final class string {
     public static final int app_name=0x7f030000;

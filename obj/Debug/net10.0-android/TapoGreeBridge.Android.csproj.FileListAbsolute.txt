@@ -28,6 +28,7 @@ C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\TapoGreeBridge.
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\TapoGreeBridge.Android.AssemblyInfoInputs.cache
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\TapoGreeBridge.Android.AssemblyInfo.cs
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\TapoGreeBridge.Android.csproj.CoreCompileInputs.cache
+C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\TapoGreeBridge.Android.sourcelink.json
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\TapoGree.C153ADD6.Up2Date
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\TapoGreeBridge.Android.dll
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\TapoGreeBridge.Android.pdb
@@ -38,7 +39,9 @@ C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\android\bin\bas
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\android\bin\com.lovij4ni.tapogreebridge.aab
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\android\bin\com.lovij4ni.tapogreebridge.apks
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\res\layout\activity_main.xml
+C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\res\layout\activity_schedule.xml
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\res\layout\room_card.xml
+C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\res\layout\schedule_item.xml
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\res\values\strings.xml
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\uploadflags.txt
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\resolvedassemblies.hash
@@ -604,6 +607,7 @@ C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\static.flag
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\android\environment.arm64-v8a.ll
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\android\marshal_methods.arm64-v8a.ll
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\android\src\crc6471d6528498a3ccc5\MainActivity.java
+C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\android\src\crc6471d6528498a3ccc5\ScheduleActivity.java
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\android\src\net\dot\android\ApplicationRegistration.java
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\android\bin\packaged_resources
@@ -625,4 +629,3 @@ C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\stamp\_ConvertR
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\Johnny\source\repos\GreeACApp\obj\Debug\net10.0-android\TapoGreeBridge.Android.sourcelink.json

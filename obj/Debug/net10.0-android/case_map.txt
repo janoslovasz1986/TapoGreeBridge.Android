@@ -1,3 +1,5 @@
 layout\activity_main;layout\activity_main
+layout\activity_schedule;layout\activity_schedule
 layout\room_card;layout\room_card
+layout\schedule_item;layout\schedule_item
 values\strings;values\Strings

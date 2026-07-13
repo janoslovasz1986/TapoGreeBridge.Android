@@ -16,6 +16,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="Időzítők" android:screenOrientation="portrait" android:name="crc6471d6528498a3ccc5.ScheduleActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.lovij4ni.tapogreebridge.mono.MonoRuntimeProvider.__mono_init__" />
   </application>
 </manifest>

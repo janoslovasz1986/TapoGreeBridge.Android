@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|c:\\users\\johnny\\source\\repos\\greeacapp\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|solutionrelative:mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|c:\\users\\johnny\\source\\repos\\greeacapp\\resources\\layout\\room_card.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
       "RelativeMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|solutionrelative:resources\\layout\\room_card.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|c:\\users\\johnny\\source\\repos\\greeacapp\\resources\\layout\\schedule_item.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
+      "RelativeMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|solutionrelative:resources\\layout\\schedule_item.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|c:\\users\\johnny\\source\\repos\\greeacapp\\resources\\layout\\activity_schedule.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
+      "RelativeMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|solutionrelative:resources\\layout\\activity_schedule.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|c:\\users\\johnny\\source\\repos\\greeacapp\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|solutionrelative:mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|c:\\users\\johnny\\source\\repos\\greeacapp\\bridgeapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|c:\\users\\johnny\\source\\repos\\greeacapp\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|solutionrelative:models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|c:\\users\\johnny\\source\\repos\\greeacapp\\scheduleactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1105B8EE-2EBE-8316-6DAE-69F660012529}|TapoGreeBridge.Android.csproj|solutionrelative:scheduleactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,49 +43,90 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "schedule_item.xml",
+              "DocumentMoniker": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\Resources\\layout\\schedule_item.xml",
+              "RelativeDocumentMoniker": "Resources\\layout\\schedule_item.xml",
+              "ToolTip": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\Resources\\layout\\schedule_item.xml",
+              "RelativeToolTip": "Resources\\layout\\schedule_item.xml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAlwC0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-07-13T06:58:18.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "activity_schedule.xml",
+              "DocumentMoniker": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\Resources\\layout\\activity_schedule.xml",
+              "RelativeDocumentMoniker": "Resources\\layout\\activity_schedule.xml",
+              "ToolTip": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\Resources\\layout\\activity_schedule.xml",
+              "RelativeToolTip": "Resources\\layout\\activity_schedule.xml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAlwCkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-07-13T06:57:46.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScheduleActivity.cs",
+              "DocumentMoniker": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\ScheduleActivity.cs",
+              "RelativeDocumentMoniker": "ScheduleActivity.cs",
+              "ToolTip": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\ScheduleActivity.cs",
+              "RelativeToolTip": "ScheduleActivity.cs",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAmwOUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T06:50:08.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "room_card.xml",
               "DocumentMoniker": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\Resources\\layout\\room_card.xml",
               "RelativeDocumentMoniker": "Resources\\layout\\room_card.xml",
               "ToolTip": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\Resources\\layout\\room_card.xml",
               "RelativeToolTip": "Resources\\layout\\room_card.xml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwDMAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAlwFsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
               "WhenOpened": "2026-07-06T20:17:37.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BridgeApiClient.cs",
               "DocumentMoniker": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\BridgeApiClient.cs",
               "RelativeDocumentMoniker": "BridgeApiClient.cs",
               "ToolTip": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\BridgeApiClient.cs",
               "RelativeToolTip": "BridgeApiClient.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAmwFIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T13:08:20.92Z"
+              "WhenOpened": "2026-06-30T13:08:20.92Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Models.cs",
               "DocumentMoniker": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\Models.cs",
               "RelativeDocumentMoniker": "Models.cs",
               "ToolTip": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\Models.cs",
               "RelativeToolTip": "Models.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAA4wDsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAA4wG4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T13:07:50.7Z"
+              "WhenOpened": "2026-06-30T13:07:50.7Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainActivity.cs",
               "DocumentMoniker": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\MainActivity.cs",
               "RelativeDocumentMoniker": "MainActivity.cs",
-              "ToolTip": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\MainActivity.cs*",
-              "RelativeToolTip": "MainActivity.cs*",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAmwMkAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Johnny\\source\\repos\\GreeACApp\\MainActivity.cs",
+              "RelativeToolTip": "MainActivity.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAmwNIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-30T07:29:40.881Z",
               "EditorCaption": ""
