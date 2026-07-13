@@ -4,6 +4,7 @@
 
 A projekt két részből áll:
 - **TapoGreeBridge** – Windows PC-n futó háttérszolgáltatás (.NET 10, ASP.NET Core)
+  https://github.com/janoslovasz1986/TapoGreeBridge.Service
 - **TapoGreeBridge.Android** – natív Android vezérlő app (.NET for Android, MAUI nélkül)
 
 ---
