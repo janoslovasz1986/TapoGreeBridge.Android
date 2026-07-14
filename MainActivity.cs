@@ -160,8 +160,8 @@ public sealed class MainActivity : Activity
                 }
             };
 
-            decreaseButton.Click += async (_, _) => await ChangeTargetAsync(room, -0.5);
-            increaseButton.Click += async (_, _) => await ChangeTargetAsync(room, +0.5);
+            decreaseButton.Click += async (_, _) => await ChangeTargetAsync(room, -0.3);
+            increaseButton.Click += async (_, _) => await ChangeTargetAsync(room, +0.3);
 
             _roomsContainer.AddView(card);
         }
