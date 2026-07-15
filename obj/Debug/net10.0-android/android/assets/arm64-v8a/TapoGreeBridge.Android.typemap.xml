@@ -1,4 +1,4 @@
-<api type="debug" assembly-name="TapoGreeBridge.Android" mvid="c8111bccdacb4e6d8537f11a3a4d446f">
+<api type="debug" assembly-name="TapoGreeBridge.Android" mvid="a8eaeebe4f004c1180bdfbc1b286383a">
   <java-to-managed>
     <entry java-name="crc6471d6528498a3ccc5/MainActivity" managed-name="TapoGreeBridge.Android.MainActivity, TapoGreeBridge.Android" managed-type-token-id="33554437" />
     <entry java-name="crc6471d6528498a3ccc5/ScheduleActivity" managed-name="TapoGreeBridge.Android.ScheduleActivity, TapoGreeBridge.Android" managed-type-token-id="33554447" />

@@ -5,6 +5,7 @@ using Android.Net.Wifi;
 using Android.OS;
 using Android.Views;
 using Android.Widget;
+using Android.Views.InputMethods;
 
 namespace TapoGreeBridge.Android;
 
@@ -22,11 +23,39 @@ public sealed class MainActivity : Activity
         SetContentView(Resource.Layout.activity_main);
 
         _serverUrlInput = FindViewById<EditText>(Resource.Id.serverUrlInput)!;
+
+        _serverUrlInput.Click += (_, _) =>
+        {
+            _serverUrlInput.RequestFocus();
+            var imm = GetSystemService(InputMethodService) as InputMethodManager;
+            imm?.ShowSoftInput(_serverUrlInput, 0);
+        };
+
         _statusText = FindViewById<TextView>(Resource.Id.statusText)!;
         _roomsContainer = FindViewById<LinearLayout>(Resource.Id.roomsContainer)!;
 
         var refreshButton = FindViewById<Button>(Resource.Id.refreshButton)!;
-        refreshButton.Click += async (_, _) => await RefreshAsync();
+        refreshButton.Click += async (_, _) =>
+        {
+            if (string.IsNullOrWhiteSpace(_serverUrlInput.Text))
+            {
+                var input = new EditText(this) { Hint = "http://192.168.0.x:5080" };
+                new AlertDialog.Builder(this)!
+                    .SetTitle("Szerver cím")!
+                    .SetView(input)!
+                    .SetPositiveButton("OK", (_, _) =>
+                    {
+                        _serverUrlInput.Text = input.Text;
+                        _ = RefreshAsync();
+                    })!
+                    .SetNegativeButton("Mégse", (_, _) => { })!
+                    .Show();
+            }
+            else
+            {
+                await RefreshAsync();
+            }
+        };
 
         // Pre-fill the last used server URL, if any.
         var prefs = GetPreferences(FileCreationMode.Private)!;

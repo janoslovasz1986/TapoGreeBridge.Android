@@ -9,12 +9,16 @@
         android:layout_height="wrap_content"
         android:padding="16dp">
 
-        <EditText
-            android:id="@+id/serverUrlInput"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="http://192.168.0.x:5080"
-            android:inputType="textUri" />
+		<EditText
+			android:id="@+id/serverUrlInput"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="http://192.168.0.x:5080"
+			android:inputType="textUri"
+			android:focusable="true"
+			android:focusableInTouchMode="true"
+			android:clickable="true"
+			android:cursorVisible="true" />
 
         <Button
             android:id="@+id/refreshButton"

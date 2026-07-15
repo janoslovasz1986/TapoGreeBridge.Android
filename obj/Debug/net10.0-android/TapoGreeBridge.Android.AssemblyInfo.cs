@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TapoGreeBridge.Android")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3b99fe437f4ced4f087aa0e5b24165e897737826")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+47ff70c35ec1755a177d29b6fd8c165359bef7c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("TapoGreeBridge.Android")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TapoGreeBridge.Android")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
